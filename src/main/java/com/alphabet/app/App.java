@@ -1,7 +1,7 @@
-package com.sabre.app;
+package com.alphabet.app;
 
-import com.sabre.app.service.FileService;
-import com.sabre.app.service.WordService;
+import com.alphabet.app.service.FileService;
+import com.alphabet.app.service.WordService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

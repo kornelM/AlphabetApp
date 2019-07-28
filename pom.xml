@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sabre.app</groupId>
+    <groupId>com.alphabet.app</groupId>
     <artifactId>AlphabetApp</artifactId>
     <version>1.0</version>
 
@@ -60,7 +60,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.sabre.app.App</mainClass>
+                            <mainClass>com.alphabet.app.App</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

@@ -1,7 +1,5 @@
 # AlphabetApp
-Application created as a recruitment task.
-
-It takes path to file with text and maps every letter to list of words which contain given letter.
+Application takes path to file with text and maps every letter to list of words which contain given letter.
 
 ## Getting Started
 

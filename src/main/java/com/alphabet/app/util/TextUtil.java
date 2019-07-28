@@ -1,4 +1,4 @@
-package com.sabre.app.util;
+package com.alphabet.app.util;
 
 public class TextUtil {
     public final static String PUNCTUATION_REGEX = "[^a-zA-Z0-9 ]";
