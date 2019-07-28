@@ -39,7 +39,7 @@ public class FileServiceTest {
         writeToFile(FILE_TEST_TEXT);
 
         // when
-        String stringFromFile = this.fileService.getStringFromFile(DIR_TEST_PATH + FILE_TEST_NAME);
+        String stringFromFile = this.fileService.getStringFromFileLowerCase(DIR_TEST_PATH + FILE_TEST_NAME);
 
         //then
         assertEquals(stringFromFile, FILE_TEST_TEXT);
@@ -52,7 +52,7 @@ public class FileServiceTest {
         String expectedString = "";
 
         //when
-        String stringFromFile = this.fileService.getStringFromFile(wrongPath);
+        String stringFromFile = this.fileService.getStringFromFileLowerCase(wrongPath);
 
         //then
         assertEquals(stringFromFile, expectedString);
@@ -66,7 +66,7 @@ public class FileServiceTest {
         writeToFile(expectedString);
 
         //when
-        String stringFromFile = this.fileService.getStringFromFile(wrongPath);
+        String stringFromFile = this.fileService.getStringFromFileLowerCase(wrongPath);
 
         //then
         assertEquals(stringFromFile, expectedString);
