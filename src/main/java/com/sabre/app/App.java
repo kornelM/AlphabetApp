@@ -17,5 +17,6 @@ public class App {
         } else {
             log.error("No args given!");
         }
+        log.info("App is closing...");
     }
 }
