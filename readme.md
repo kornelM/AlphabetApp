@@ -1,4 +1,4 @@
-#WordsApp
+# AlphabetApp
 Application created as a recruitment task.
 
 It takes path to file with text and maps every letter to list of words which contain given letter.
@@ -7,7 +7,7 @@ It takes path to file with text and maps every letter to list of words which con
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-##Example
+## Example
 
 Sentence: `ala ma kota, kot koduje w Javie kota` will out to console
 `
