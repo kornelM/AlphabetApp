@@ -9,22 +9,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Example
 
-Sentence: `ala ma kota, kot koduje w Javie kota` will out to console
-`
-a: kota,ma,ala,javie  
-d: koduje  
-e: koduje,javie  
-i: javie  
-j: koduje,javie  
-k: kot,koduje,kot  
-l: ala  
-m: ma  
-o: kot,koduje,kota  
-t: kot,kota  
-u: koduje  
-v: javie  
-w: w
-`
+Sentence: `ala ma kota, kot koduje w Javie kota` will write to file
+
+a: kota,ma,ala,javie <br /> 
+d: koduje  <br />
+e: koduje,javie  <br />
+i: javie  <br />
+j: koduje,javie <br /> 
+k: kot,koduje,kot  <br />
+l: ala  <br />
+m: ma  <br />
+o: kot,koduje,kota  <br />
+t: kot,kota  <br />
+u: koduje  <br />
+v: javie  <br />
+w: w<br />
+
 
 ### Build 
 
